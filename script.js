@@ -1,51 +1,51 @@
 const fases = [
   {
     nome: "🏰 Portal da Introdução",
-    historia: "A vila está sendo atacada por ideias confusas! Você precisa demonstrar que sabe apresentar uma tese.",
-    pergunta: "Qual é a principal função da introdução?",
+    historia: "O guardião do portal exige que você demonstre domínio da construção de uma tese crítica e bem delimitada.",
+    pergunta: "Considerando o tema 'Os desafios para combater o bullying nas escolas brasileiras', qual alternativa apresenta a tese mais consistente?",
     alternativas: [
-      "Apresentar o tema e a tese defendida.",
-      "Apresentar apenas uma solução.",
-      "Contar uma história sem relação com o tema."
+      "O bullying é um problema muito grave e acontece em várias escolas brasileiras.",
+      "A persistência do bullying nas escolas brasileiras está relacionada à insuficiência de políticas de prevenção e à naturalização de comportamentos discriminatórios no ambiente escolar.",
+      "O bullying existe há muito tempo e precisa ser combatido por todos."
     ],
-    correta: 0,
-    explicacao: "A introdução apresenta o tema e o posicionamento que será defendido."
+    correta: 1,
+    explicacao: "A alternativa apresenta um posicionamento específico e dois eixos argumentativos que podem ser desenvolvidos ao longo da redação."
   },
   {
     nome: "🌳 Floresta dos Argumentos",
-    historia: "Um dragão bloqueia seu caminho. Para passar, você precisa demonstrar que sabe argumentar.",
-    pergunta: "O que torna um argumento consistente?",
+    historia: "O dragão da superficialidade bloqueia a passagem. Para derrotá-lo, você precisa construir uma argumentação aprofundada.",
+    pergunta: "Em uma redação sobre o bullying escolar, qual estratégia apresenta maior aprofundamento argumentativo?",
     alternativas: [
-      "Repetir a mesma opinião.",
-      "Apresentar justificativas, explicações e exemplos.",
-      "Utilizar palavras difíceis sem explicar."
+      "Afirmar que o bullying é prejudicial porque machuca os sentimentos dos estudantes.",
+      "Repetir que a violência escolar é um problema grave e que precisa ser resolvido imediatamente.",
+      "Analisar como a ausência de ações educativas e a reprodução de preconceitos contribuem para a naturalização da violência, comprometendo a saúde emocional e o desempenho acadêmico das vítimas."
     ],
-    correta: 1,
-    explicacao: "Argumentos consistentes apresentam justificativas que sustentam a tese."
+    correta: 2,
+    explicacao: "A alternativa apresenta relações de causa e consequência, explica os mecanismos que sustentam o problema e demonstra suas consequências sociais."
   },
   {
     nome: "📚 Biblioteca dos Sábios",
-    historia: "Você encontrou uma biblioteca mágica. Escolha o melhor repertório sociocultural.",
-    pergunta: "O que é repertório sociocultural?",
+    historia: "O bibliotecário desafia você a utilizar repertórios socioculturais de maneira legítima, pertinente e produtiva.",
+    pergunta: "Em uma redação sobre a responsabilidade das instituições de ensino no combate ao bullying, qual utilização de repertório é mais produtiva?",
     alternativas: [
-      "Uma lista de palavras difíceis.",
-      "Uma opinião sem justificativa.",
-      "Conhecimentos históricos, culturais, científicos ou sociais relacionados ao tema."
+      "Relacionar o artigo 205 da Constituição Federal de 1988, que estabelece a educação como direito de todos e dever do Estado e da família, à necessidade de garantir um ambiente escolar adequado à formação dos estudantes.",
+      "Mencionar a Constituição Federal de 1988 sem explicar sua relação com o problema discutido.",
+      "Citar um filósofo famoso sem apresentar sua ideia ou relacioná-la ao tema."
     ],
-    correta: 2,
-    explicacao: "Repertórios fortalecem a argumentação quando são pertinentes e bem relacionados ao tema."
+    correta: 0,
+    explicacao: "O repertório é legítimo, pertinente e produtivo porque relaciona um dispositivo constitucional à discussão sobre o direito à educação."
   },
   {
     nome: "🏯 Castelo da Conclusão",
-    historia: "Você chegou ao castelo! Agora precisa demonstrar que sabe propor uma solução.",
-    pergunta: "O que deve conter uma proposta de intervenção completa?",
+    historia: "O último guardião protege o castelo. Para vencê-lo, você precisa elaborar uma proposta de intervenção detalhada e articulada ao problema.",
+    pergunta: "Qual proposta de intervenção apresenta maior completude para combater o bullying nas escolas brasileiras?",
     alternativas: [
-      "Somente uma opinião.",
-      "Agente, ação, meio de execução e finalidade, com detalhamento quando pertinente.",
-      "Uma pergunta ao leitor."
+      "O bullying deve acabar, pois todos precisam respeitar uns aos outros e viver em harmonia.",
+      "O Ministério da Educação, em parceria com as secretarias estaduais de ensino, deve implementar programas permanentes de prevenção ao bullying, por meio de formação docente, rodas de conversa e canais seguros de denúncia, a fim de promover o acolhimento das vítimas e reduzir as práticas de violência escolar.",
+      "Os alunos que praticarem bullying devem ser retirados imediatamente da escola, independentemente da situação."
     ],
     correta: 1,
-    explicacao: "Uma proposta completa apresenta quem fará, o que fará, como e para quê."
+    explicacao: "A proposta apresenta agente, ação, meio de execução, finalidade e detalhamento, respeitando os direitos humanos e priorizando a prevenção e o acolhimento."
   }
 ];
 
