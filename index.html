@@ -1,1 +1,123 @@
 
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Redação Quest - RPG da Argumentação</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>⚔️ REDAÇÃO QUEST</h1>
+    <p>A Jornada do Argumento Perdido</p>
+  </header>
+
+  <main>
+    <section id="inicio" class="tela ativa">
+      <h2>Bem-vindo, aventureiro!</h2>
+      <p>Prepare-se para salvar o Reino da Argumentação!</p>
+
+      <input type="text" id="nome" placeholder="Digite seu nome">
+
+      <h3>Escolha seu personagem</h3>
+
+      <div class="personagens">
+        <button onclick="escolherPersonagem('Guerreiro')">
+          ⚔️ Guerreiro
+        </button>
+        <button onclick="escolherPersonagem('Mago')">
+          🔮 Mago
+        </button>
+      </div>
+
+      <p id="personagemEscolhido">Nenhum personagem escolhido</p>
+
+      <button class="principal" onclick="iniciarJogo()">
+        INICIAR AVENTURA
+      </button>
+    </section>
+
+    <section id="jogo" class="tela">
+      <div class="status">
+        <span id="jogador"></span>
+        <span id="xp">XP: 0</span>
+        <span id="nivel">Nível: 1</span>
+      </div>
+
+      <div class="barra">
+        <div id="progresso"></div>
+      </div>
+
+      <h2 id="fase"></h2>
+      <p id="historia"></p>
+
+      <div class="desafio">
+        <h3 id="pergunta"></h3>
+        <div id="alternativas"></div>
+      </div>
+
+      <p id="feedback"></p>
+
+      <button id="confirmar" class="principal"
+        onclick="confirmarResposta()">
+        CONFIRMAR RESPOSTA
+      </button>
+
+      <button id="proxima" class="principal escondido"
+        onclick="proximaFase()">
+        PRÓXIMA FASE
+      </button>
+    </section>
+
+    <section id="chefao" class="tela">
+      <h2>🐉 O Senhor Achismo!</h2>
+      <p>
+        O último desafio chegou! Escreva uma redação
+        dissertativo-argumentativa sobre:
+      </p>
+
+      <h3>
+        Os desafios para combater o bullying
+        nas escolas brasileiras.
+      </h3>
+
+      <p>
+        Sua redação deve conter introdução,
+        desenvolvimento e conclusão.
+      </p>
+
+      <textarea id="redacao"
+        placeholder="Escreva sua redação aqui..."></textarea>
+
+      <button class="principal" onclick="finalizarJogo()">
+        DERROTAR O CHEFÃO
+      </button>
+    </section>
+
+    <section id="vitoria" class="tela">
+      <h2>🏆 PARABÉNS, MESTRE DA REDAÇÃO!</h2>
+      <p>Você salvou o Reino da Argumentação!</p>
+
+      <div class="resultado">
+        <h3 id="resultadoNome"></h3>
+        <p id="resultadoXP"></p>
+        <p id="resultadoNivel"></p>
+        <p id="resultadoPalavras"></p>
+      </div>
+
+      <button class="principal" onclick="location.reload()">
+        JOGAR NOVAMENTE
+      </button>
+    </section>
+  </main>
+
+  <footer>
+    <p>Redação Quest © 2026 | Aprender pode ser uma aventura!</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
